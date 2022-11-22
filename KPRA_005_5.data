@@ -1,0 +1,185 @@
+-- Этот файл был сгенерирован тНавигатор v22.2-2344-g7bc0b6893a57.
+-- Copyright (C) Рок Флоу Динамикс 2005-2022.
+-- Все права защищены.
+
+
+----------------
+RUNSPEC
+----------------
+
+
+TNAVCTRL
+ SCALE_MATRIX            NO /
+ CONVERGENCE_PROBLEM_NUM 90 /
+ LONGNAMES                1 /
+/
+
+
+RUNCTRL
+ TMAXMULT        4
+ MAXLINIT      300
+ WELLEQUATIONS   1
+ WATERZONE       1
+/
+
+
+START
+ 01 JAN 1950 /
+
+
+OIL
+
+
+WATER
+
+
+METRIC
+
+
+ENDSCALE
+ /
+
+
+DIMENS
+ 479 350 167 /
+
+
+TABDIMS
+ 2 2 1* 68 68 /
+
+
+REGDIMS
+ 68 69 /
+
+
+WELLDIMS
+ 5000 300 10 3242 /
+
+EQLDIMS
+ 68 /
+
+
+GRIDOPTS
+ NO 1* 8 /
+
+----------------
+GRID
+----------------
+
+
+INCLUDE
+'KPRA_005_5_grid.inc' /
+
+
+INCLUDE
+'USER/arrpermx2.txt' /
+
+--INCLUDE
+--'USER/arrpermz2.txt' /
+
+--INCLUDE
+--'USER/arrpress.txt' /
+
+
+ARITHMETIC
+PERMX=arrperm*arrpermx2
+PERMX=if(PERMX > 15000, 15000, PERMX)
+PERMY=PERMX
+PERMZ=PERMX*0.1
+/
+
+--NNC
+--294 332 70 287 326 76 100 /--654-604
+--294 332 71 287 326 77 100 /--654-604
+--/
+----------------
+EDIT
+----------------
+
+
+INCLUDE
+'KPRA_005_5_edit.inc' /
+
+
+INCLUDE
+'USER/arrporv.map' /
+
+ARITHMETIC
+PORV=if(arrporv>0, PORV*1600, PORV)
+PORV=if(arrzone>9, PORV*100, PORV)
+/
+
+----------------
+PROPS
+----------------
+
+
+INCLUDE
+'KPRA_005_5_props.inc' /
+
+
+INCLUDE
+'USER/arrkrwr2.txt' /
+
+INCLUDE
+'USER/arrkro2.txt' /
+
+INCLUDE
+'USER/arrswcr2.txt' /
+
+ARITHMETIC              
+KRO=0.9*arrkro2
+KRO=if(KRO<0.1, 0.1, KRO)
+KRO=if(KRO>0.9, 0.9, KRO)
+KRORW=KRO
+
+krwr=krwr*arrkrwr2
+krwr=if(krwr > 0.4, 0.4, krwr)
+
+SWCR=SWCR*ARRSWCR2
+SWCR=IF(SWCR>0.394, 0.394, SWCR)
+/
+
+
+----------------
+REGIONS
+----------------
+
+
+INCLUDE
+'KPRA_005_5_regs.inc' /
+
+
+----------------
+SOLUTION
+----------------
+
+
+INCLUDE
+'KPRA_005_5_init.inc' /
+
+
+----------------
+SUMMARY
+----------------
+
+
+ALL
+
+RPTMAPT
+ MONTH 6.00000000000000000000e+01 /
+
+RECU
+
+
+INCLUDE
+'KPRA_005_5_recu.inc' /
+
+
+----------------
+SCHEDULE
+----------------
+
+STOP
+
+END
