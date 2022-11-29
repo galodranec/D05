@@ -1053,6 +1053,10 @@ arrpermx2	1.5	303	303	228	228	98	109	/--	1039 для 443
 arrpermx2	10	297	297	209	209	92	94	/--	1042
 arrpermx2	5	297	297	209	209	95	96	/--	1042
 arrpermx2	10	370	370	215	215	167	167	/--	388
+arrpermx2	10	352	352	180	180	108	114	/--	446-391
+arrpermx2	0.1	344	344	177	177	99	115	/--	446 blok nefti
+arrpermx2	0.1	344	344	175	175	99	115	/--	446 blok nefti
+arrpermx2	0.1	346	346	175	175	99	115	/--	446 blok nefti
 /
 ARITHMETIC
 arrpermx2=interpolate_ML_IDW(arrpermx2,    0,1,4)
