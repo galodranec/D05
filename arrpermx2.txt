@@ -1074,6 +1074,7 @@ arrpermx2	7	147	147	184	184	57	75	/--	2020-2017A
 arrpermx2	0.1	141	146	157	157	57	85	/--	2017A blok
 arrpermx2	0.1	141	141	157	159	57	85	/--	2017A blok
 arrpermx2	0.8	244	244	85	85	1	167	/--	726
+arrpermx2	0.9	257	257	93	93	1	167	/--	674
 /
 ARITHMETIC
 arrpermx2=interpolate_ML_IDW(arrpermx2,    0,1,4)
