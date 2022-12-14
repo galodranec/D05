@@ -887,6 +887,9 @@ arrpermz2	3	343	343	60	60	53	57	/--	61
 arrpermz2	3	343	343	60	60	91	109	/--	61
 arrpermz2	3	320	320	194	194	101	131	/--	558
 arrpermz2	8	338	338	30	30	91	97	/--	573
+arrpermz2	5	324	324	73	73	63	65	/--	569
+arrpermz2	5	324	324	73	73	93	96	/--	569
+arrpermz2	4	253	253	175	175	102	126	/--	666
 /
 ARITHMETIC
 arrpermz2=interpolate_ML_IDW(arrpermz2,    0,1,4)
