@@ -1003,6 +1003,7 @@ arrkrwr2	3	214	214	166	166	70	80	/--	804
 arrkrwr2	2.5	87	87	235	235	61	80	/--	950
 arrkrwr2	0.1	51	51	238	238	54	97	/--	2149
 arrkrwr2	0.3	297	297	209	209	69	107	/--	1042
+arrkrwr2	0.7	285	285	88	88	1	167	/--	977
 /
 ARITHMETIC
 arrkrwr2=interpolate_ML_IDW(arrkrwr2,    0,1,4)
