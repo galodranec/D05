@@ -1133,6 +1133,10 @@ arrpermx2	10	371	371	241	241	167	167	/--	73_ELH davl
 arrpermx2	5	396	396	280	280	106	110	/--	382 dop dla obvodnenia
 arrpermx2	0.5	400	400	283	283	61	79	/--	327 dla obvodnenia 382
 arrpermx2	2	400	400	283	283	105	113	/--	327 dla obvodnenia 382
+arrpermx2	1.5	290	290	163	163	100	105	/--	58
+arrpermx2	7	286	286	159	159	109	116	/--	621-58
+arrpermx2	0.2	264	264	144	146	99	117	/--	621 blok nefti
+arrpermx2	0.2	264	266	144	144	99	117	/--	621 blok nefti
 
 /
 ARITHMETIC
