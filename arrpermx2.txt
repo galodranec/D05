@@ -1138,6 +1138,7 @@ arrpermx2	7	286	286	159	159	109	116	/--	621-58
 arrpermx2	0.2	264	264	144	146	99	117	/--	621 blok nefti
 arrpermx2	0.2	264	266	144	144	99	117	/--	621 blok nefti
 arrpermx2	5	266	266	156	156	167	167	/--	620
+arrpermx2	2	143	143	217	217	57	79	/--	2024
 
 /
 ARITHMETIC
