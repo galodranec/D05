@@ -1144,7 +1144,7 @@ arrpermx2	0.1	236	238	265	265	69	79	/--	796--blok davl
 arrpermx2	30	306	306	113	113	167	167	/--	972A davl zkc
 arrpermx2	20	306	306	113	113	92	96	/--	972A davl zkc
 arrpermx2	0.2	239	239	277	281	74	81	/--	795--blok davl
-arrpermx2	10	371	371	241	241	167	167	/--	73_ELH davl
+arrpermx2	30	371	371	241	241	167	167	/--	73_ELH davl
 arrpermx2	5	396	396	280	280	106	110	/--	382 dop dla obvodnenia
 arrpermx2	0.5	400	400	283	283	61	79	/--	327 dla obvodnenia 382
 arrpermx2	2	400	400	283	283	105	113	/--	327 dla obvodnenia 382
@@ -1265,6 +1265,7 @@ arrpermx2	50	300	300	239	239	167	167	/--	2747
 arrpermx2	10	371	371	100	100	63	80	/--	59
 arrpermx2	20	194	194	216	216	167	167	/--	1134
 arrpermx2	50	376	376	75	75	167	167	/--	2553
+arrpermx2	3	320	320	308	308	74	97	/--	1025
 /
 ARITHMETIC
 arrpermx2=interpolate_ML_IDW(arrpermx2,    0,1,4)
