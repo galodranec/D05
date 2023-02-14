@@ -1320,6 +1320,7 @@ arrpermx2	3	68	68	243	243	55	63	/--	952B
 arrpermx2	0.5	68	68	243	243	64	81	/--	952B
 arrpermx2	2	73	73	252	252	57	70	/--	2067A
 arrpermx2	0.5	73	73	252	252	71	81	/--	2067A
+arrpermx2	40	371	371	66	66	62	65	/--	402
 /
 ARITHMETIC
 arrpermx2=interpolate_ML_IDW(arrpermx2,    0,1,4)
