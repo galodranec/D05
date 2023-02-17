@@ -947,8 +947,8 @@ arrpermx2	3	122	122	222	222	58	59	/--	2030
 --arrpermx2	1	83	83	242	242	1	167	/--	2071
 
 arrpermx2	20	358	358	173	173	52	73	/--	392
-arrpermx2	1.5	385	385	274	274	63	97	/--	382
-arrpermx2	3	385	385	274	274	103	113	/--	382
+arrpermx2	1	385	385	274	274	63	97	/--	382
+arrpermx2	3.5	385	385	274	274	103	113	/--	382
 arrpermx2	2	333	333	203	203	114	131	/--	501
 
 --roma
@@ -1149,8 +1149,9 @@ arrpermx2	20	306	306	113	113	92	96	/--	972A davl zkc
 arrpermx2	0.2	239	239	277	281	74	81	/--	795--blok davl
 arrpermx2	30	371	371	241	241	167	167	/--	73_ELH davl
 arrpermx2	8	396	396	280	280	106	110	/--	382 dop dla obvodnenia
-arrpermx2	0.4	400	400	283	283	61	79	/--	327 dla obvodnenia 382
-arrpermx2	3	400	400	283	283	105	113	/--	327 dla obvodnenia 382
+arrpermx2	0.2	400	400	283	283	61	79	/--	327 dla obvodnenia 382
+arrpermx2	3.5	400	400	283	283	105	113	/--	327 dla obvodnenia 382
+arrpermx2	0.3	400	400	283	283	119	132	/--	327 dla obvodnenia 382
 arrpermx2	1.5	290	290	163	163	100	105	/--	58
 arrpermx2	7	286	286	159	159	109	116	/--	621-58
 arrpermx2	0.2	264	264	144	146	99	117	/--	621 blok nefti
@@ -1206,7 +1207,7 @@ arrpermx2	8	403	403	181	181	63	66	/--	1093
 arrpermx2	10	403	403	181	181	102	108	/--	1093
 arrpermx2	4	319	319	273	273	100	117	/--	1031
 arrpermx2	20	305	305	231	231	167	167	/--	1038
-arrpermx2	50	372	372	274	274	167	167	/--	437
+arrpermx2	40	372	372	274	274	167	167	/--	437
 arrpermx2	20	301	301	222	222	167	167	/--	1040
 arrpermx2	5	343	343	286	286	92	117	/--	549
 arrpermx2	3	295	295	198	198	55	131	/--	1044
@@ -1330,6 +1331,7 @@ arrpermx2	0.5	73	73	252	252	71	81	/--	2067A
 arrpermx2	20	269	269	331	331	167	167	/--	708
 
 arrpermx2	40	371	371	66	66	62	65	/--	402
+arrpermx2	20	372	372	274	274	101	108	/--	437
 /
 ARITHMETIC
 arrpermx2=interpolate_ML_IDW(arrpermx2,    0,1,4)
