@@ -1343,6 +1343,9 @@ arrpermx2	0.5	392	392	290	290	112	119	/--	2082
 arrpermx2	5	363	363	278	278	167	167	/--	2648
 arrpermx2	20	363	363	169	169	167	167	/--	392N
 arrpermx2	20	385	385	274	274	167	167	/--	382
+arrpermx2	5	359	359	284	284	167	167	/--	493
+arrpermx2	3	338	338	82	82	133	142	/--	511
+arrpermx2	7	281	281	321	321	120	126	/--	654
 /
 ARITHMETIC
 arrpermx2=interpolate_ML_IDW(arrpermx2,    0,1,4)
