@@ -102,6 +102,8 @@ INCLUDE
 ARITHMETIC
 PORV=if(arrporv>0, PORV*1600, PORV)
 PORV=if(arrzone>9, PORV*100, PORV)
+--PORV(307, 13, 79:81)=PORV*1000
+--PORV(307, 14:16, 81)=PORV*1000
 /
 
 ----------------
